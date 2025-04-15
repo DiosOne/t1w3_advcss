@@ -1,0 +1,35 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.bubbles {
+	width: 100dvw;
+	height: 100dvh;
+	background-color: lime;
+}
+
+.bubble {
+	width: 10dvw;
+	/* aspect-ratio: 1; */
+	height: 10dvw;
+	background-color: green;
+	transition: background-color 2s, transform 2s;
+	border-radius: 50%;
+    animation: rise 9s infinite linear;
+}
+
+.bubble:hover {
+	background-color: rgb(163, 17, 180);
+	transform: scale(2);
+}
+
+@keyframes rise {
+    0% {
+        /* bottom: -1000px; */
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-100px);
+    }
+}
