@@ -3,17 +3,19 @@
 	margin: 0;
 }
 
-.bubbles {
+.bubbles-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 	width: 100vw;
 	height: 100vh;
 	background-color: lime;
+    overflow: hidden;
+    // position: fixed;
    
 }
 .bubbles-container {
-    position: relative;
+    position: fixed;
     height: 100vh;
     overflow: hidden;
   }
@@ -35,9 +37,9 @@
 
 @keyframes rise {
     0% {
-        bottom: -10px;
+        bottom: 0vw;
 
-        transform: translateY(100vw);
+        transform: translateY(200vw);
     }
     100% {
         transform: translateY(0vw);
