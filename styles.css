@@ -71,6 +71,7 @@
   animation: rise 27s infinite linear, sideways 3s ease-in-out infinite alternate;
   left: 20%;
   top: 0%;
+  transform: scale(0.5);
 }
 
 .b5 {
@@ -84,28 +85,33 @@
   animation: rise 26s infinite linear, sideways 4s ease-in-out infinite alternate;
   left: 50%;
   top: 0%;
+  transform: scale(0.6);
 }
 
 .b7 {
   animation: rise 22s infinite linear, sideways 6s ease-in-out infinite alternate;
   left: 65%;
   top: 70%;
+  transform: scale(1.1);
 }
 
 .b8 {
   animation: rise 28s infinite linear, sideways 4s ease-in-out infinite alternate;
   left: 80%;
   top: 10%;
+  transform: scale(0.4);
 }
 
 .b9 {
   animation: rise 19s infinite linear, sideways 3s ease-in-out infinite alternate;
   left: 90%;
   top: 50%;
+  transform: scale(0.7);
 }
 
 .b10 {
   animation: rise 24s infinite linear, sideways 2s ease-in-out infinite alternate;
   left: 80%;
   top: 80%;
+  transform: scale(0.8);
 }/*# sourceMappingURL=styles.css.map */
