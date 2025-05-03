@@ -5,6 +5,7 @@
 
 .bubbles-container {
   display: flex;
+  position: fixed;
   flex-direction: row;
   justify-content: space-between;
   width: 100vw;
@@ -13,34 +14,28 @@
   overflow: hidden;
 }
 
-.bubbles-container {
-  position: fixed;
-  height: 100vh;
-  overflow: hidden;
-}
-
 .bubble {
+  position: absolute;
   width: 10vw;
   aspect-ratio: 1;
   height: 10vw;
   background-color: green;
   transition: background-color 2s, transform 2s;
   border-radius: 50%;
-  animation: rise 20s infinite linear, sideways 5s infinite linear;
+  transform-origin: center;
+  transform: scale(1);
 }
 
 .bubble:hover {
   background-color: rgb(163, 17, 180);
-  transform: scale(2);
 }
 
 @keyframes rise {
   0% {
-    bottom: 0vw;
-    transform: translateY(200vw);
+    top: 50vw;
   }
   100% {
-    transform: translateY(0vw);
+    top: -50vw;
   }
 }
 @keyframes sideways {
@@ -48,6 +43,69 @@
     margin-left: 0px;
   }
   100% {
-    margin-left: 50px;
+    margin-left: 25px;
   }
+}
+.b1 {
+  animation: rise 20s infinite linear, sideways 2s ease-in-out infinite alternate;
+  left: -5%;
+  top: 5%;
+  transform: scale(0.8);
+}
+
+.b2 {
+  animation: rise 29s infinite linear, sideways 6s ease-in-out infinite alternate;
+  left: 5%;
+  top: 80%;
+  transform: scale(1.2);
+}
+
+.b3 {
+  animation: rise 22s infinite linear, sideways 4s ease-in-out infinite alternate;
+  left: 10%;
+  top: 40%;
+  transform: scale(0.3);
+}
+
+.b4 {
+  animation: rise 27s infinite linear, sideways 3s ease-in-out infinite alternate;
+  left: 20%;
+  top: 0%;
+}
+
+.b5 {
+  animation: rise 18s infinite linear, sideways 2s ease-in-out infinite alternate;
+  left: 30%;
+  top: 50%;
+  transform: scale(0.9);
+}
+
+.b6 {
+  animation: rise 26s infinite linear, sideways 4s ease-in-out infinite alternate;
+  left: 50%;
+  top: 0%;
+}
+
+.b7 {
+  animation: rise 22s infinite linear, sideways 6s ease-in-out infinite alternate;
+  left: 65%;
+  top: 70%;
+}
+
+.b8 {
+  animation: rise 28s infinite linear, sideways 4s ease-in-out infinite alternate;
+  left: 80%;
+  top: 10%;
+}
+
+.b9 {
+  animation: rise 19s infinite linear, sideways 3s ease-in-out infinite alternate;
+  left: 90%;
+  top: 50%;
+}
+
+.b10 {
+  animation: rise 24s infinite linear, sideways 2s ease-in-out infinite alternate;
+  left: 80%;
+  top: 80%;
 }/*# sourceMappingURL=styles.css.map */
