@@ -25,7 +25,7 @@
 	background-color: green;
 	transition: background-color 2s, transform 2s;
 	border-radius: 50%;
-    animation: rise 9s infinite linear;
+    animation: rise 20s infinite linear, sideways 5s infinite linear;
 }
 
 .bubble:hover {
@@ -35,11 +35,20 @@
 
 @keyframes rise {
     0% {
-        bottom: -1000px;
+        bottom: -10px;
 
         transform: translateY(100vw);
     }
     100% {
-        transform: translateY(-100vw);
+        transform: translateY(0vw);
+    }
+}
+
+@keyframes sideways {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: 50px;
     }
 }
