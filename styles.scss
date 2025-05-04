@@ -10,7 +10,7 @@
     justify-content: space-between;
 	width: 100vw;
 	height: 100vh;
-	background-color: lime;
+	background-color: #fff;
     overflow: hidden;
        
 }
@@ -24,18 +24,17 @@
     position: absolute;
 	width: 10vw;
 	aspect-ratio: 1;
-	height: 10vw;
-	background-color: green;
-	transition: background-color 2s, transform 2s;
-	border-radius: 50%;
-    transform-origin: center;
+    border-radius: 50%;
+	
+    background: radial-gradient(circle at 30% 30%, #7fff7f, #00cc00 40%, #004d00 100%);
+
+    box-shadow: 0 15px 30px -10px #00800099, 0 0 30px 10px #00ff004d, inset -10px 10px 40px #00ff0033;
+
+    transition: background-image 2s ease, transform 2s ease;
+	transform-origin: center;
     transform: scale(1);
 }
 
-.bubble:hover {
-	background-color: rgb(163, 17, 180);
-	
-}
 
 @keyframes rise {
     0% {
