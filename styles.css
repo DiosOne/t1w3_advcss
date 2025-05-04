@@ -47,35 +47,35 @@
   }
 }
 .b1 {
-  animation: rise 20s infinite linear, sideways 2s ease-in-out infinite alternate;
+  animation: rise 22s infinite linear, sideways 2s ease-in-out infinite alternate;
   left: -5%;
   top: 5%;
   transform: scale(0.8);
 }
 
 .b2 {
-  animation: rise 29s infinite linear, sideways 6s ease-in-out infinite alternate;
+  animation: rise 16s infinite linear, sideways 6s ease-in-out infinite alternate;
   left: 5%;
   top: 80%;
   transform: scale(1.2);
 }
 
 .b3 {
-  animation: rise 22s infinite linear, sideways 4s ease-in-out infinite alternate;
+  animation: rise 29s infinite linear, sideways 4s ease-in-out infinite alternate;
   left: 10%;
   top: 40%;
   transform: scale(0.3);
 }
 
 .b4 {
-  animation: rise 27s infinite linear, sideways 3s ease-in-out infinite alternate;
+  animation: rise 25s infinite linear, sideways 3s ease-in-out infinite alternate;
   left: 20%;
   top: 0%;
   transform: scale(0.5);
 }
 
 .b5 {
-  animation: rise 18s infinite linear, sideways 2s ease-in-out infinite alternate;
+  animation: rise 21s infinite linear, sideways 2s ease-in-out infinite alternate;
   left: 30%;
   top: 50%;
   transform: scale(0.9);
@@ -89,28 +89,28 @@
 }
 
 .b7 {
-  animation: rise 22s infinite linear, sideways 6s ease-in-out infinite alternate;
+  animation: rise 18s infinite linear, sideways 6s ease-in-out infinite alternate;
   left: 65%;
   top: 70%;
   transform: scale(1.1);
 }
 
 .b8 {
-  animation: rise 28s infinite linear, sideways 4s ease-in-out infinite alternate;
+  animation: rise 26s infinite linear, sideways 4s ease-in-out infinite alternate;
   left: 80%;
   top: 10%;
   transform: scale(0.4);
 }
 
 .b9 {
-  animation: rise 19s infinite linear, sideways 3s ease-in-out infinite alternate;
+  animation: rise 24s infinite linear, sideways 3s ease-in-out infinite alternate;
   left: 90%;
   top: 50%;
   transform: scale(0.7);
 }
 
 .b10 {
-  animation: rise 24s infinite linear, sideways 2s ease-in-out infinite alternate;
+  animation: rise 22s infinite linear, sideways 2s ease-in-out infinite alternate;
   left: 80%;
   top: 80%;
   transform: scale(0.8);
